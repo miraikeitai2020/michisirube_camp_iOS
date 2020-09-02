@@ -7,6 +7,7 @@
   - https://qiita.com/KosukeSone/items/514dd24828b485c69a05
   - masterブランチ、developブラントにはpushしない！！
   - 原則として、developからfeatureブランチを切る
+  - とりあえず、masterブランチ、developブランチ、featureブランチは覚えてほしい
   - 余裕があれば、俺がプルリクレビューするよー
 
 ## 開発で気をつけること
@@ -22,6 +23,7 @@
 1. ViewControllerにベタがきはやめよう(ファイル分け)
 1. pushした後はプルリクを出す
 1. Xcode上でグループを作ると見やすい
+1. デバッグには、print文とかブレイクポイントを使うといいよ
 
 ## 開発の流れ
 1. プロジェクトを作って、CocoaPodsを導入する(xcodeprojではなくて、workspaceで作業をする)
