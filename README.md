@@ -1,6 +1,8 @@
 未知しるべiOS班の開発合宿
 # michisirube_camp_iOS
-ゆかりがんばれ！！！！！！
+ゆかりがんばれ！！！！！！  
+当たって砕けろ！！！！！  
+分量多くてすまん！！！！
 
 ## ブランチの切り方
 - gitフロー
@@ -24,6 +26,8 @@
 1. pushした後はプルリクを出す
 1. Xcode上でグループを作ると見やすい
 1. デバッグには、print文とかブレイクポイントを使うといいよ
+1. デフォルトのViewControllerとMain.storyboardは消して、自分で新たに作り直して開発するのが定石
+   - [StoryboardsをiOS13以上のプロジェクトから削除する](https://swiswiswift.com/2019-12-29/)
 
 ## 開発の流れ
 1. プロジェクトを作って、[CocoaPods](https://qiita.com/ShinokiRyosei/items/3090290cb72434852460)を導入する(xcodeprojではなくて、workspaceで作業をする)
