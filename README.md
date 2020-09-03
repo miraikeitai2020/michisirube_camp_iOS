@@ -42,6 +42,9 @@
 1. Viewでは、Presenterから貰った情報をそのまま表示する(Labelに反映するとか、TableViewに反映するとか)
 
 ## Alamofireはこうやって使うといいよ
+- キーワード
+    - ハンドラ
+    - クロージャ
 ```
 AF.request(requestURL, method: .get, encoding: JSONEncoding.default).response { response in
 // この中にコード書く
