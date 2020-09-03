@@ -26,7 +26,8 @@
 1. pushした後はプルリクを出す
 1. Xcode上でグループを作ると見やすい
 1. デバッグには、print文とかブレイクポイントを使うといいよ
-1. デフォルトのViewControllerとMain.storyboardは消して、自分で新たに作り直して開発するのが定石
+1. ブレイクポイントに関しては、「あれ？このメソッド呼ばれてなくね？？」とか「この行のこのコード実行されてなくね？？」とか思った時に使うといいよ(ブレイクポイントつけた箇所が呼ばれるとビルド時にその箇所でプログラムが止まる)
+1. デフォルトのViewControllerとMain.storyboardは消して、自分で新たに作り直して開発するのが定石(開発チームによっては、Main.storyboardは残すこともある)
    - [StoryboardsをiOS13以上のプロジェクトから削除する](https://swiswiswift.com/2019-12-29/)
 
 ## 開発の流れ
@@ -42,9 +43,10 @@
 1. Viewでは、Presenterから貰った情報をそのまま表示する(Labelに反映するとか、TableViewに反映するとか)
 
 ## Alamofireはこうやって使うといいよ
-- キーワード
-    - ハンドラ
+- キーワード(この辺はむずい)
+    - 非同期
     - クロージャ
+    - ハンドラ
 ```
 AF.request(requestURL, method: .get, encoding: JSONEncoding.default).response { response in
 // この中にコード書く
