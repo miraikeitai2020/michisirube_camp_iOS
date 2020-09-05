@@ -36,6 +36,7 @@
 1. ブレイクポイントに関しては、「あれ？このメソッド呼ばれてなくね？？」とか「この行のこのコード実行されてなくね？？」とか思った時に使うといいよ(ブレイクポイントつけた箇所が呼ばれるとビルド時にその箇所でプログラムが止まる)
 1. デフォルトのViewControllerとMain.storyboardは消して、自分で新たに作り直して開発するのが定石(開発チームによっては、Main.storyboardは残すこともある)
    - [StoryboardsをiOS13以上のプロジェクトから削除する](https://swiswiswift.com/2019-12-29/)
+1. xcodeprojファイルは、ファイル追加しただけでコンフリクトを起こす厄介なやつ(そのためにXcodegenを使ってgitの追跡対象から外して、ビルド時にxcodeprojファイルを生成させる)
 
 ## 開発の流れ
 1. プロジェクトを作って、[CocoaPods](https://qiita.com/ShinokiRyosei/items/3090290cb72434852460)を導入する(xcodeprojではなくて、workspaceで作業をする)
