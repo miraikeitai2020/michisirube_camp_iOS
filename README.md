@@ -10,6 +10,8 @@
   - masterブランチ、developブランチにはpushしない！！
   - 原則として、developからfeatureブランチを切る
   - とりあえず、masterブランチ、developブランチ、featureブランチは覚えてほしい
+  - 随時、developにマージする
+  - masterにマージするタイミングは、アプリ完成時(1つの不具合もない状態、warningも極力解消する)
   - 余裕があれば、俺がプルリクレビューするよー        
   
 - githubフロー
