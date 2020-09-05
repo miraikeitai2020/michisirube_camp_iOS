@@ -7,11 +7,16 @@
 ## ブランチの切り方
 - gitフロー
   - https://qiita.com/KosukeSone/items/514dd24828b485c69a05
-  - masterブランチ、developブラントにはpushしない！！
+  - masterブランチ、developブランチにはpushしない！！
   - 原則として、developからfeatureブランチを切る
   - とりあえず、masterブランチ、developブランチ、featureブランチは覚えてほしい
-  - 余裕があれば、俺がプルリクレビューするよー
-
+  - 余裕があれば、俺がプルリクレビューするよー        
+  
+- githubフロー
+  - https://qiita.com/tbpgr/items/4ff76ef35c4ff0ec8314
+  - 全てのブランチはmasterブランチから派生される
+  - 随時、masterにマージする
+  - masterにはpushしない
 ## 開発で気をつけること
 1. アーキテクチャはMVP(Model View Presenter)
     - [【Swift】MVCから脱却したいのでMVPの勉強をした](https://qiita.com/hicka04/items/25be38a90fdde29c97c2)
