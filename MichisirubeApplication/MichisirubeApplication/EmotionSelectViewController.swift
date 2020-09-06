@@ -1,20 +1,19 @@
 //
-//  ViewController.swift
+//  EmotionSelectViewController.swift
 //  MichisirubeApplication
 //
 //  Created by 安保友香梨 on 2020/09/06.
-//  Copyright © 2020 anbo. All rights reserved.
 //
 
 import UIKit
-import Alamofire
 
-class ViewController: UIViewController {
+class EmotionSelectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
 }
-

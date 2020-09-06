@@ -7,71 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B267478A927675EFF58F2AD /* EmotionSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5184E7A004E2455B23B5555F /* EmotionSelectViewController.swift */; };
+		198CEB2587EB885A3A6CA186 /* Pods_MichisirubeApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C847540D8BF5908E8CFE8DB4 /* Pods_MichisirubeApplication.framework */; };
 		1DC3F96CFC73D82AC67DA69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46DEE943C0E647AEFF7BDAD /* AppDelegate.swift */; };
 		46739FE05B6FC09E7EDB8101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6A1CF02406694604A326F /* SceneDelegate.swift */; };
+		5DBBCACE3E1EDB8BC4AB3850 /* EmotionSelect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B702E60DB84CCA88B55EC2 /* EmotionSelect.storyboard */; };
 		7C82E7E09797D203BDD97D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84905EECAA17590239DBFA89 /* Main.storyboard */; };
 		7F9BE7A7BC0C9AD889D76FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A591A8230F5203328E039085 /* Assets.xcassets */; };
 		B86EA2871376AB091B134309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F80592899F95C5B00F9EB9 /* LaunchScreen.storyboard */; };
-		DCA9F1C2B440D1EBAFFA2B5C /* Pods_MichisirubeApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128A71D58F902CE20A073829 /* Pods_MichisirubeApplication.framework */; };
-		E42FE038AE84AD6C7ABA7907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0378992FD908F012EAEEEF9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		128A71D58F902CE20A073829 /* Pods_MichisirubeApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MichisirubeApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FB0C58986C46EE0546B6B27 /* Pods-MichisirubeApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichisirubeApplication.release.xcconfig"; path = "Target Support Files/Pods-MichisirubeApplication/Pods-MichisirubeApplication.release.xcconfig"; sourceTree = "<group>"; };
+		103281FC518B4D28A0AB65DD /* Pods-MichisirubeApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichisirubeApplication.release.xcconfig"; path = "Target Support Files/Pods-MichisirubeApplication/Pods-MichisirubeApplication.release.xcconfig"; sourceTree = "<group>"; };
+		12B702E60DB84CCA88B55EC2 /* EmotionSelect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmotionSelect.storyboard; sourceTree = "<group>"; };
 		20B9BA2D9BB1B7B10D209043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B84138E7151B86F7698EA52 /* Pods-MichisirubeApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichisirubeApplication.debug.xcconfig"; path = "Target Support Files/Pods-MichisirubeApplication/Pods-MichisirubeApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		5184E7A004E2455B23B5555F /* EmotionSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelectViewController.swift; sourceTree = "<group>"; };
 		94B2B5EF6AB09F6BFA901510 /* MichisirubeApplication.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MichisirubeApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A6A1CF02406694604A326F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A591A8230F5203328E039085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72B3BDA0A30F5BCF3611C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B757381098668DBAF7A9E0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E0378992FD908F012EAEEEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0BC836E781741F91C2656B3 /* Pods-MichisirubeApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MichisirubeApplication.debug.xcconfig"; path = "Target Support Files/Pods-MichisirubeApplication/Pods-MichisirubeApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		C847540D8BF5908E8CFE8DB4 /* Pods_MichisirubeApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MichisirubeApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46DEE943C0E647AEFF7BDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB93DEEB937C1DDF444766DF /* Frameworks */ = {
+		832643273452F9F82C3C72C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA9F1C2B440D1EBAFFA2B5C /* Pods_MichisirubeApplication.framework in Frameworks */,
+				198CEB2587EB885A3A6CA186 /* Pods_MichisirubeApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A455C546C02D7F74666E8B3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				128A71D58F902CE20A073829 /* Pods_MichisirubeApplication.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		50CE69015FE63B870295D62D /* MichisirubeApplication */ = {
 			isa = PBXGroup;
 			children = (
 				E46DEE943C0E647AEFF7BDAD /* AppDelegate.swift */,
 				A591A8230F5203328E039085 /* Assets.xcassets */,
+				12B702E60DB84CCA88B55EC2 /* EmotionSelect.storyboard */,
+				5184E7A004E2455B23B5555F /* EmotionSelectViewController.swift */,
 				B757381098668DBAF7A9E0D7 /* Info.plist */,
 				61F80592899F95C5B00F9EB9 /* LaunchScreen.storyboard */,
 				84905EECAA17590239DBFA89 /* Main.storyboard */,
 				98A6A1CF02406694604A326F /* SceneDelegate.swift */,
-				E0378992FD908F012EAEEEF9 /* ViewController.swift */,
 			);
 			path = MichisirubeApplication;
-			sourceTree = "<group>";
-		};
-		5CEB977999B55B1E9ED4C59F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7B84138E7151B86F7698EA52 /* Pods-MichisirubeApplication.debug.xcconfig */,
-				1FB0C58986C46EE0546B6B27 /* Pods-MichisirubeApplication.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		99C6424B5D0F2C95EC93DA26 /* Products */ = {
@@ -87,9 +72,27 @@
 			children = (
 				50CE69015FE63B870295D62D /* MichisirubeApplication */,
 				99C6424B5D0F2C95EC93DA26 /* Products */,
-				5CEB977999B55B1E9ED4C59F /* Pods */,
-				3A455C546C02D7F74666E8B3 /* Frameworks */,
+				D3E543F5549A9678B4F15449 /* Pods */,
+				F346887AC7178AC96DB11EDA /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		D3E543F5549A9678B4F15449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC836E781741F91C2656B3 /* Pods-MichisirubeApplication.debug.xcconfig */,
+				103281FC518B4D28A0AB65DD /* Pods-MichisirubeApplication.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F346887AC7178AC96DB11EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C847540D8BF5908E8CFE8DB4 /* Pods_MichisirubeApplication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,11 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8303A840950631D2533DC2 /* Build configuration list for PBXNativeTarget "MichisirubeApplication" */;
 			buildPhases = (
-				A4CA5C90BFDD95A6F706E72A /* [CP] Check Pods Manifest.lock */,
+				F42823D2DD602E01F33E9B6A /* [CP] Check Pods Manifest.lock */,
 				49DCE4788B97BB9549C6B430 /* Sources */,
 				059C62D601A9DC838E909DBA /* Resources */,
-				BB93DEEB937C1DDF444766DF /* Frameworks */,
-				99C1A984CC36820256CF03F8 /* [CP] Embed Pods Frameworks */,
+				832643273452F9F82C3C72C3 /* Frameworks */,
+				5BABF662FB734B994C7B2C8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9BE7A7BC0C9AD889D76FD1 /* Assets.xcassets in Resources */,
+				5DBBCACE3E1EDB8BC4AB3850 /* EmotionSelect.storyboard in Resources */,
 				B86EA2871376AB091B134309 /* LaunchScreen.storyboard in Resources */,
 				7C82E7E09797D203BDD97D8C /* Main.storyboard in Resources */,
 			);
@@ -155,7 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		99C1A984CC36820256CF03F8 /* [CP] Embed Pods Frameworks */ = {
+		5BABF662FB734B994C7B2C8B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,7 +176,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MichisirubeApplication/Pods-MichisirubeApplication-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4CA5C90BFDD95A6F706E72A /* [CP] Check Pods Manifest.lock */ = {
+		F42823D2DD602E01F33E9B6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,8 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC3F96CFC73D82AC67DA69A /* AppDelegate.swift in Sources */,
+				0B267478A927675EFF58F2AD /* EmotionSelectViewController.swift in Sources */,
 				46739FE05B6FC09E7EDB8101 /* SceneDelegate.swift in Sources */,
-				E42FE038AE84AD6C7ABA7907 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +235,7 @@
 /* Begin XCBuildConfiguration section */
 		1F3DE350C2FE34F086A6122B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB0C58986C46EE0546B6B27 /* Pods-MichisirubeApplication.release.xcconfig */;
+			baseConfigurationReference = 103281FC518B4D28A0AB65DD /* Pods-MichisirubeApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -241,6 +245,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.kaitokudou2468110921.MichisirubeApplication;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,7 +363,7 @@
 		};
 		F1981C0973C48F674D55DBBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B84138E7151B86F7698EA52 /* Pods-MichisirubeApplication.debug.xcconfig */;
+			baseConfigurationReference = C0BC836E781741F91C2656B3 /* Pods-MichisirubeApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -368,6 +373,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.kaitokudou2468110921.MichisirubeApplication;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
