@@ -1,0 +1,8 @@
+name: MichisirubeApplication
+targets:
+  MichisirubeApplication:
+    type: application
+    platform: iOS
+    sources: MichisirubeApplication
+    settings:
+      CURRENT_PROJECT_VERSION: 1
