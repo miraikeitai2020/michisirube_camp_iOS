@@ -40,7 +40,7 @@
 
 ## 開発の流れ
 1. プロジェクトを作って、[CocoaPods](https://qiita.com/ShinokiRyosei/items/3090290cb72434852460)を導入する(xcodeprojではなくて、workspaceで作業をする)
-1. できたら[Xcodege](https://github.com/yonaskolb/XcodeGen)を使ってほしいところ（こいつ使うとxcodeprojファイルのコンフリクトを防げる）
+1. できたら[Xcodegen](https://github.com/yonaskolb/XcodeGen)を使ってほしいところ（こいつ使うとxcodeprojファイルのコンフリクトを防げる）
 1. まず、UIを構成する(storyboardでもコードでもおk)
 1. View、Presenter、Modelのグループを作る
 1. storyboardとViewControllerを紐付け
