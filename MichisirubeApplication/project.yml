@@ -1,4 +1,6 @@
 name: MichisirubeApplication
+options:
+  bundleIdPrefix: com.icloud.kaitokudou2468110921
 targets:
   MichisirubeApplication:
     type: application
